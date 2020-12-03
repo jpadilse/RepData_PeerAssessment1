@@ -1,10 +1,28 @@
 ---
 title: "Reproducible Research: Peer Assessment 1"
+author: "Juan Felipe Padilla Sepulveda"
+date: "Fecha de actualización: `r format(Sys.time(), '%d %B, %Y')`"
 output: 
   html_document:
     keep_md: true
 ---
 
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  cache = FALSE,
+  collapse = TRUE,
+  comment = "#>",
+  dpi = 400,
+  echo = FALSE,
+  fig.align = "center",
+  fig.asp = 0.618,
+  fig.show = "hold",
+  message = FALSE,
+  out.width = "70%",
+  tidy = "styler",
+  warning = FALSE
+)
+```
 
 ## Loading and preprocessing the data
 
